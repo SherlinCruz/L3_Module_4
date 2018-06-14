@@ -1,3 +1,5 @@
+package threads;
+
 // Below is a completed program that uses brute force to crack a 9-digit password. 
 // On average, the program takes about 0.125 seconds to find the password.
 // Your goal is to re-write the algorithm using Threads. Try to shorten the time it takes 
@@ -19,8 +21,8 @@ public class BruteForceCracker {
 		System.out.println("Starting Brute Force Checker");
 		startTime = System.currentTimeMillis();
 		
-		int ctr = 0;
-		while(!checkCode(ctr++));
+		//int ctr = 0;
+		//while(!checkCode(ctr++));
 		
 		endTime = System.currentTimeMillis();
 		elapsedTime = (float)(endTime - startTime);
